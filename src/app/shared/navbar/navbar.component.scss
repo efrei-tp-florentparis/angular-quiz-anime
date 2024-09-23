@@ -1,0 +1,31 @@
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 40px;
+
+  nav {
+    max-width: 340px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 25px;
+    background-color: #fff;
+    border-radius: 50px;
+
+    ul {
+      display: flex;
+      list-style: none;
+      gap: 20px;
+      font-size: 14px;
+
+      li {
+        &:hover {
+          color: rgb(253, 142, 253);
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

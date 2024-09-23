@@ -1,0 +1,69 @@
+<app-navbar></app-navbar>
+
+<div id="quiz-container">
+  <div class="question-navigation">
+    <span id="score">Score actuel: {{ score }}</span>
+    <app-pick-question-card
+      *ngFor="let index of getQuestionIndex()"
+      [questionNumber]="index + 1"
+      [isActive]="index === currentQuestionIndex"
+      [isCorrect]="isAnswerCorrect(index)"
+      [hasAnswered]="hasAnswered(index)"
+      (questionSelected)="setCurrentQuestion(index)"
+    >
+    </app-pick-question-card>
+  </div>
+
+  <!-- <div class="question-container" *ngIf="getCurrentQuestion()">
+    <h3>{{ getCurrentQuestion().question }}</h3>
+    <ul>
+      <li
+        (click)="checkAnswer(key)"
+        *ngFor="let key of objectKeys(getCurrentQuestion().reponses)"
+      >
+        {{ key }}: {{ getCurrentQuestion().reponses[key] }}
+      </li>
+    </ul>
+  </div> -->
+
+  <div class="question-container" *ngIf="getCurrentQuestion()">
+    <app-question
+      [question]="getCurrentQuestion()"
+      [objectKeys]="objectKeys"
+      (answerSelected)="checkAnswer($event)"
+    ></app-question>
+  </div>
+
+  <div *ngIf="quizCompleted" class="results-summary">
+    <h2>Résumé du Quiz</h2>
+    <p>Score: {{ getResults().score }} / {{ getResults().totalQuestions }}</p>
+    <p>Réponses Correctes: {{ getResults().correctAnswers }}</p>
+    <p>Réponses Incorrectes: {{ getResults().incorrectAnswers }}</p>
+
+    <div *ngIf="getResults().questionsWithErrors.length > 0">
+      <h3>Questions Incorrectes</h3>
+      <ul>
+        <li *ngFor="let question of getResults().questionsWithErrors">
+          <strong>{{ question.question }}</strong>
+          <p>Réponse correcte: {{ question.reponses[question.reponse] }}</p>
+        </li>
+      </ul>
+    </div>
+
+    <div *ngIf="getResults().questionsWithCorrectAnswers.length > 0">
+      <h3>Questions Correctes</h3>
+      <ul>
+        <li *ngFor="let question of getResults().questionsWithCorrectAnswers">
+          <strong>{{ question.question }}</strong>
+          <p>Réponse correcte: {{ question.reponses[question.reponse] }}</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <app-save-result
+    *ngIf="quizCompleted"
+    [score]="getResults().score"
+    [totalQuestions]="getResults().totalQuestions"
+  ></app-save-result>
+</div>

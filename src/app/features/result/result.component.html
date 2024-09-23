@@ -1,0 +1,15 @@
+<app-navbar></app-navbar>
+
+<div class="result-container">
+  <h2>Résultats des Quizzes</h2>
+  <ul>
+    <li *ngFor="let result of results">
+      {{ result.userName }} : Score: {{ result.score }} / Total:
+      {{ result.totalQuestions }}
+    </li>
+  </ul>
+
+  <div *ngIf="results.length === 0">
+    <p>Aucun résultat enregistré.</p>
+  </div>
+</div>

@@ -1,0 +1,14 @@
+li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 0;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+  transition: all 0.1s ease 0s;
+
+  &:hover {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  }
+}

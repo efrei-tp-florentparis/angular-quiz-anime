@@ -1,0 +1,39 @@
+.question-navigation {
+  position: relative;
+  background-color: #fff;
+  max-width: 340px;
+  border-radius: 30px;
+  padding: 55px 20px 20px 20px;
+  height: fit-content;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+
+  #score {
+    position: absolute;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    font-size: 20px;
+  }
+}
+
+#quiz-container {
+  padding: 0 40px;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 30px;
+}
+
+.results-summary {
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #fff;
+
+  > div {
+    padding-top: 10px;
+  }
+}

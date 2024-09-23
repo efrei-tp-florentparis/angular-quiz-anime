@@ -1,0 +1,204 @@
+{
+  "questions_reponses": [
+    {
+      "question": "Quel est le nom du protagoniste principal dans l'anime 'Naruto' ?",
+      "reponses": {
+        "A": "Naruto Uzumaki",
+        "B": "Sasuke Uchiha",
+        "C": "Sakura Haruno",
+        "D": "Kakashi Hatake"
+      },
+      "reponse": "A"
+    },
+    {
+      "question": "Dans 'One Piece', quel est le nom du bateau de l'équipage de Luffy ?",
+      "reponses": {
+        "A": "Le Going Merry",
+        "B": "Le Thousand Sunny",
+        "C": "Le Red Force",
+        "D": "Le Moby Dick"
+      },
+      "reponse": "B"
+    },
+    {
+      "question": "Quel est le nom de l'école où étudient les héros dans 'My Hero Academia' ?",
+      "reponses": {
+        "A": "UA High School",
+        "B": "Shiketsu High School",
+        "C": "Aldera Junior High",
+        "D": "I-Island Academy"
+      },
+      "reponse": "A"
+    },
+    {
+      "question": "Qui est le créateur de l'anime 'Dragon Ball' ?",
+      "reponses": {
+        "A": "Masashi Kishimoto",
+        "B": "Eiichiro Oda",
+        "C": "Akira Toriyama",
+        "D": "Yoshihiro Togashi"
+      },
+      "reponse": "C"
+    },
+    {
+      "question": "Dans l'anime 'Death Note', quel est le nom du dieu de la mort qui accompagne Light Yagami ?",
+      "reponses": {
+        "A": "Rem",
+        "B": "Ryuk",
+        "C": "Jealous",
+        "D": "Beelzebub"
+      },
+      "reponse": "B"
+    },
+    {
+      "question": "Quel studio d'animation a produit 'Le Voyage de Chihiro' ?",
+      "reponses": {
+        "A": "Madhouse",
+        "B": "Toei Animation",
+        "C": "Studio Ghibli",
+        "D": "Sunrise"
+      },
+      "reponse": "C"
+    },
+    {
+      "question": "Quel est le pouvoir spécial de Gon Freecss dans 'Hunter x Hunter' ?",
+      "reponses": {
+        "A": "Le Haki",
+        "B": "Le Chakra",
+        "C": "Le Nen",
+        "D": "L'Alchimie"
+      },
+      "reponse": "C"
+    },
+    {
+      "question": "Comment s'appelle l'héroïne dans 'Sailor Moon' ?",
+      "reponses": {
+        "A": "Rei Hino",
+        "B": "Makoto Kino",
+        "C": "Usagi Tsukino",
+        "D": "Minako Aino"
+      },
+      "reponse": "C"
+    },
+    {
+      "question": "Dans 'Attack on Titan', comment appelle-t-on les créatures géantes qui menacent l'humanité ?",
+      "reponses": {
+        "A": "Les Colosses",
+        "B": "Les Titans",
+        "C": "Les Akumas",
+        "D": "Les Kaijus"
+      },
+      "reponse": "B"
+    },
+    {
+      "question": "Quel est le nom de l'épée légendaire de Kirito dans 'Sword Art Online' ?",
+      "reponses": {
+        "A": "Elucidator",
+        "B": "Excalibur",
+        "C": "Dark Repulser",
+        "D": "Heavensplitter"
+      },
+      "reponse": "A"
+    },
+    {
+      "question": "Dans l'anime 'Fullmetal Alchemist', quelle est la loi fondamentale de l'alchimie ?",
+      "reponses": {
+        "A": "L'équivalence des échanges",
+        "B": "Le cercle transmutatoire",
+        "C": "La théorie des portes",
+        "D": "La résonance des âmes"
+      },
+      "reponse": "A"
+    },
+    {
+      "question": "Quel est le nom du héros principal de l'anime 'Demon Slayer' ?",
+      "reponses": {
+        "A": "Tanjiro Kamado",
+        "B": "Inosuke Hashibira",
+        "C": "Zenitsu Agatsuma",
+        "D": "Giyu Tomioka"
+      },
+      "reponse": "A"
+    },
+    {
+      "question": "Dans 'Cowboy Bebop', quel est le nom du chien intelligent de l'équipage ?",
+      "reponses": {
+        "A": "Ein",
+        "B": "Spike",
+        "C": "Edward",
+        "D": "Faye"
+      },
+      "reponse": "A"
+    },
+    {
+      "question": "Qui est l'auteur original du manga 'Attack on Titan' ?",
+      "reponses": {
+        "A": "Tite Kubo",
+        "B": "Hajime Isayama",
+        "C": "Yoshihiro Togashi",
+        "D": "Makoto Yukimura"
+      },
+      "reponse": "B"
+    },
+    {
+      "question": "Dans l'anime 'Neon Genesis Evangelion', quel est le numéro de l'Eva pilotée par Shinji Ikari ?",
+      "reponses": {
+        "A": "Eva-01",
+        "B": "Eva-00",
+        "C": "Eva-02",
+        "D": "Eva-03"
+      },
+      "reponse": "A"
+    },
+    {
+      "question": "Dans l'anime 'Bleach', quel est le nom de l'arme principale d'Ichigo Kurosaki ?",
+      "reponses": {
+        "A": "Zangetsu",
+        "B": "Tensa Zangetsu",
+        "C": "Senbonzakura",
+        "D": "Kyoka Suigetsu"
+      },
+      "reponse": "A"
+    },
+    {
+      "question": "Quel est le nom du tournoi dans 'Yu Yu Hakusho' où Yusuke et ses amis doivent combattre des démons ?",
+      "reponses": {
+        "A": "Le Tournoi de l'Ombre",
+        "B": "Le Tournoi des Démoniaques",
+        "C": "Le Tournoi du Monde Sombre",
+        "D": "Le Tournoi des Ténèbres"
+      },
+      "reponse": "D"
+    },
+    {
+      "question": "Dans 'Tokyo Ghoul', quelle est la couleur caractéristique des yeux des goules lorsqu'elles utilisent leur pouvoir ?",
+      "reponses": {
+        "A": "Rouge",
+        "B": "Bleu",
+        "C": "Jaune",
+        "D": "Vert"
+      },
+      "reponse": "A"
+    },
+    {
+      "question": "Quel est le nom de l'esprit maléfique qui possède Yugi dans 'Yu-Gi-Oh!' ?",
+      "reponses": {
+        "A": "Atem",
+        "B": "Bakura",
+        "C": "Zorc",
+        "D": "Marik"
+      },
+      "reponse": "A"
+    },
+    {
+      "question": "Dans l'anime 'Fairy Tail', quelle est la magie utilisée par Natsu Dragnir ?",
+      "reponses": {
+        "A": "Magie de Feu",
+        "B": "Magie des Dragons",
+        "C": "Magie du Dragon Slayer de Feu",
+        "D": "Magie des Flammes"
+      },
+      "reponse": "C"
+    }
+  ]
+}

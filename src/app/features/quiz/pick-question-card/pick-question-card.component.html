@@ -1,0 +1,8 @@
+<button
+  class="card-container"
+  [class.active]="isActive"
+  [class.correct]="isCorrect && hasAnswered"
+  [class.incorrect]="!isCorrect && hasAnswered"
+>
+  {{ questionNumber }}
+</button>

@@ -1,0 +1,11 @@
+<div class="question-container">
+  <h3>{{ question.question }}</h3>
+  <ul>
+    <app-answer
+      *ngFor="let key of objectKeys(question.reponses)"
+      [answerKey]="key"
+      [answerText]="question.reponses[key]"
+      (answerSelected)="onAnswerSelected($event)"
+    ></app-answer>
+  </ul>
+</div>
